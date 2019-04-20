@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <ImageView
+            android:layout_width="140dp"
+            android:layout_height="100dp"
+            android:src="@mipmap/ic_launcher"
+            android:scaleType="centerCrop"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            >
+            <TextView
+                android:id="@+id/payTxt"
+                android:layout_marginLeft="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="보증금/월세"
+                android:textColor="#000000"
+                android:textSize="25sp"
+                />
+            <TextView
+                android:id="@+id/localTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="지역, ?층"
+                android:textSize="16sp"
+                />
+
+            <TextView
+                android:id="@+id/contextTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="설명 문구가 들어옵니다."
+                android:textColor="#404040"
+                android:textSize="15sp"
+                />
+
+    </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>
